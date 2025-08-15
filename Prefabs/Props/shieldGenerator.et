@@ -1,0 +1,31 @@
+GenericEntity {
+ ID "661D43BD1FB42FC5"
+ components {
+  MeshObject "{661D43BD162CC85C}" {
+   Object "{EF4F665D61738B62}Assets/Items/Equipment/Backpacks/Backpack_ShieldGenerator/Shield_Backpack_Item.xob"
+  }
+  RigidBody "{661D43BD2C28C58E}" {
+   ModelGeometry 1
+   Static 1
+  }
+  SCR_DestructionMultiPhaseComponent "{661D43BD345AD3D1}" {
+   "Additional hit zones" {
+    SCR_HitZone Hitzone {
+     HZDefault 1
+     MaxHealth 10000
+    }
+   }
+   m_fBaseHealth 10000
+   m_DestroySpawnObjects {
+    SCR_ParticleSpawnable "{661D43BD3F7BF1ED}" {
+     m_Particle "{2E8B5767FDBED4A1}Particles/Logistics/Explosion/Ammo_Rack/Explosion_Ammo_Rack_Medium.ptc"
+    }
+   }
+  }
+  RplComponent "{661D43BD29F1C5B1}" {
+  }
+ }
+ Flags 1027
+ coords 2021.674 422.03 2646.143
+ scale 3
+}

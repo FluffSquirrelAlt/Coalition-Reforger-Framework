@@ -1,0 +1,42 @@
+GameEntity : "{0408ADABE28CC8CE}Prefabs/Characters/Headgear/Enforcer_Helmet_Shiny.et" {
+ ID "5112706CD4157AC7"
+ components {
+  BaseRadioComponent "{658F13B8023309C2}" {
+   Enabled 0
+  }
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{5244E4431DA56D64}" {
+    ItemDisplayName UIInfo "{5244E443130B31B9}" {
+     Name "Enforcer Helmet Captain"
+     Description "Captain Pattern"
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{661D43AFEC06B6EE}" {
+     SourceMaterial "Helmet"
+     AssignedMaterial "{DBEDAB6FEDAD81D1}Assets/Characters/Headgear/Enforcer_Helmet/Data/Colored/Enforcer_Helmet_Colored_CPT.emat"
+    }
+   }
+  }
+  SCR_EquipmentStorageComponent "{60A0EEBF9E3B0E6D}" {
+   Attributes SCR_ItemAttributeCollection "{60A0EEBFAFEA83B3}" {
+    ItemDisplayName UIInfo "{60A0EEBFA14D1CC0}" {
+     Name "MARC II Helmet Captain"
+    }
+   }
+  }
+  SCR_RadioComponent "{658F13B828AE2CCB}" {
+   Enabled 0
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{DBEDAB6FEDAD81D1}Assets/Characters/Headgear/Enforcer_Helmet/Data/Colored/Enforcer_Helmet_Colored_CPT.emat"
+   }
+   ItemMaterialsOverride {
+    "{DBEDAB6FEDAD81D1}Assets/Characters/Headgear/Enforcer_Helmet/Data/Colored/Enforcer_Helmet_Colored_CPT.emat"
+   }
+  }
+ }
+}

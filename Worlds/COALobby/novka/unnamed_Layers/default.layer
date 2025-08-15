@@ -1,0 +1,101 @@
+SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ coords 2481.498 363.731 2423.74
+}
+CRF_Gamemode CRF_Lobby1 : "{6A996BBFCEB37E78}Prefabs/MP/Modes/Lobby/CRF_Lobby.et" {
+ coords 2487.468 364.461 2411.896
+ m_iTimeLimitMinutes -1
+ EnableAIInGameState 1
+ m_aMissionDescriptors {
+  CRF_MissionDescriptor "{644250503DF684C0}" {
+   m_sTextData "A platoon of Republic soldiers will be dropped off at Point Rain to conduct a series of assualts on defensive positions, with the end goal of knocking out a comms stations shield generator to permit an orbital strike on the site."\
+   ""\
+   "Objectives: "\
+   "- Destroy the AA site missile launchers"\
+   "- Destroy the battery of X1 heavy cannons"\
+   "- Destroy the shield generator at the comms station"\
+   "- Successfully evacuate the AO"
+  }
+  CRF_MissionDescriptor "{64425051F2E00216}" {
+   m_aFactionKeys {
+    ""
+   }
+  }
+  CRF_MissionDescriptor "{6442505149CF6C93}" {
+   m_sTextData "PLT has limited oversight in this mission, its a simpler and more combat focused role."\
+   ""\
+   "Shield bubbles have to be manually deleted by GM when the generator is destroyed due to technical limitations."
+  }
+ }
+ m_BLUFORGearScriptSettings CRF_GearScriptContainer "{64570ACB9B419A7B}" {
+  m_rGearScript "{1BD605737D88B53A}Configs/Gearscripts/Custom/fluff/CRF_GS_CLONES.conf"
+  m_rLeadershipRadiosPrefab "{4ACBA9E1F61EC559}Prefabs/Items/Equipment/Radios/Enforcer_Radio.et"
+  m_rGIRadiosPrefab "{4ACBA9E1F61EC559}Prefabs/Items/Equipment/Radios/Enforcer_Radio.et"
+  m_bEnableRTORadios 0
+ }
+ m_bRespawnEnabled 1
+ m_bWaveRespawn 1
+ m_iBLUFORTickets 20
+ {
+  SCR_FactionManager "661D43A857135B03" {
+   ID "632A77473B3CC3A8"
+   Factions {
+    SCR_Faction "{628B22E9B4056C88}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5DA0F2A6677ADA9E}" {
+      m_aSquadNames {
+       SCR_CallsignInfo "{55CCB792D10AD8F4}" {
+        m_sCallsign "LEADERSHIP"
+       }
+       SCR_CallsignInfo "{55CCB792D13759D8}" {
+       }
+       SCR_CallsignInfo "{55CCB792D1218E95}" {
+       }
+       SCR_CallsignInfo "{661D43AE7B785BD0}" {
+        m_sCallsign "JUMP TEAM"
+       }
+       SCR_CallsignInfo "{661D43AE7B3325E8}" {
+        m_sCallsign "SCARAB 1 "
+       }
+       SCR_CallsignInfo "{661D43AE7B2F7499}" {
+        m_sCallsign "SCARAB 2"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp CRF_ManualMarker : "{BE9E1F90BFFBB48A}PrefabsEditable/Markers/GameZoneMarker.et" {
+ {
+  coords 2483.436 382.158 2465.996
+  angleY 0
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "fortification-2"
+  m_fWorldSize 100
+  m_sDescription "X1 Battery"
+ }
+ {
+  coords 2025.377 424.747 2648.431
+  angleY 0
+  m_MarkerColor 0.561 0.071 0.071 1
+  m_sQuadName "fortification-2"
+  m_fWorldSize 100
+  m_sDescription "AA Battery"
+ }
+ {
+  coords 1494.249 213.635 2611.059
+  angleY 90
+  m_MarkerColor 0.157 0.275 0.624 1
+  m_sQuadName "pick-up-2"
+  m_fWorldSize 100
+  m_sDescription "Point Rain"
+ }
+ {
+  coords 2702.7 491.306 2469.868
+  angleY 0
+  m_MarkerColor 0.502 0 0 1
+  m_sQuadName "objective-marker"
+  m_fWorldSize 150
+  m_sDescription "Comms Station"
+ }
+}

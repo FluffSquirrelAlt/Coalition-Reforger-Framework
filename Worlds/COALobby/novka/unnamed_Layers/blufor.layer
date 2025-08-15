@@ -1,0 +1,136 @@
+SCR_DestructibleBuildingEntity : "{26A4193702B0EC4A}Prefabs/Structures/Military/Bunkers/ShelterMilitary_E_01/ShelterMilitary_E_01_base.et" {
+ coords 1910.772 0.265 444.899
+ angleY -61.537
+ scale 1.16
+}
+GenericEntity : "{45FE6E3AD4D384D3}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_02_V1_Enforcers.et" {
+ coords 1908.616 8.454 446.431
+ angleX 21.312
+ angleY 68.346
+ angleZ -27.472
+}
+GenericEntity : "{7CAD8FB0E25EF7B4}Prefabs/Props/HologramTable.et" {
+ coords 1912.881 1.619 445.304
+ angleY 62.328
+}
+$grp GenericEntity : "{8B3E3492620C745C}PrefabsEditable/CRF_VehicleSpawner.et" {
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{E6E0159618443E80}Prefabs/Vehicles/Ships/Dropship/Dropship_Base.et"
+   }
+  }
+  coords 1831.077 1.445 493.177
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{E6E0159618443E80}Prefabs/Vehicles/Ships/Dropship/Dropship_Base.et"
+   }
+  }
+  coords 1829.019 -0.268 472.96
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{E6E0159618443E80}Prefabs/Vehicles/Ships/Dropship/Dropship_Base.et"
+   }
+  }
+  coords 1858.493 2.848 492.98
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{E6E0159618443E80}Prefabs/Vehicles/Ships/Dropship/Dropship_Base.et"
+   }
+  }
+  coords 1854.803 2.821 468.804
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{8F89DBB5C174D20D}Prefabs/Vehicles/Ships/Dropship/Dropship_Armed.et"
+   }
+  }
+  coords 1869.072 3.678 436.324
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+ {
+  components {
+   CRF_VehicleSpawner "{64626B666A3B82E3}" {
+    m_rVehicle "{8F89DBB5C174D20D}Prefabs/Vehicles/Ships/Dropship/Dropship_Armed.et"
+   }
+  }
+  coords 1892.209 2.042 435.84
+  angleX 0
+  angleY -81.407
+  angleZ 0
+ }
+}
+GenericEntity : "{B68DF9A61AFAA587}Prefabs/Vehicles/Ships/F3_Static.et" {
+ coords 1786.179 96.007 308.655
+ angleY 137.545
+ scale 1.26
+}
+SCR_AIGroup : "{EE91BF23FBC94408}Prefabs/Groups/BLUFOR/Standard/Command/CRF_BLUFOR_Company_p.et" {
+ coords 1913.295 -232.427 457.104
+ m_aUnitPrefabSlots {
+  "{B3182F73DBEACB7B}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_COY_P.et" "{C62B8D48AAA03249}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_PL_P.et" "{CC8EDD051CB0C1CE}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_SL_P.et"
+ }
+ {
+  SCR_AIGroup : "{9C45BAF40F909576}Prefabs/Groups/BLUFOR/Standard/Infantry/CRF_BLUFOR_RifleSquad_p.et" {
+   coords -19.333 10.976 47.767
+   m_aUnitPrefabSlots {
+    "{CC8EDD051CB0C1CE}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_SL_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{690B6588C8F675A4}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_AR_P.et" "{6F99DE8453E6B423}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Rifleman_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{DCA2E07271574B14}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Sniper_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et"
+   }
+   {
+    SCR_AIGroup : "{9C45BAF40F909576}Prefabs/Groups/BLUFOR/Standard/Infantry/CRF_BLUFOR_RifleSquad_p.et" {
+     coords 0.493 -0.069 -7.007
+     m_aUnitPrefabSlots {
+      "{CC8EDD051CB0C1CE}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_SL_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{690B6588C8F675A4}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_AR_P.et" "{6F99DE8453E6B423}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Rifleman_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{DCA2E07271574B14}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Sniper_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et"
+     }
+     {
+      SCR_AIGroup : "{9C45BAF40F909576}Prefabs/Groups/BLUFOR/Standard/Infantry/CRF_BLUFOR_RifleSquad_p.et" {
+       coords 0.549 0.059 -7.661
+       m_aUnitPrefabSlots {
+        "{CC8EDD051CB0C1CE}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_SL_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{690B6588C8F675A4}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_AR_P.et" "{6F99DE8453E6B423}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Rifleman_P.et" "{1E08ED0385C765CC}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_TL_P.et" "{DCA2E07271574B14}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Sniper_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et" "{85CCCDA106719506}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_Demo_P.et"
+       }
+       {
+        SCR_AIGroup : "{9C45BAF40F909576}Prefabs/Groups/BLUFOR/Standard/Infantry/CRF_BLUFOR_RifleSquad_p.et" {
+         coords 0.249 1.151 -4.174
+         m_aUnitPrefabSlots {
+          "{478FBA09EDDFC439}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_VehLead_P.et" "{5915E51A1AABB9D2}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_VehGunner_P.et" "{5915E51A1AABB9D2}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_VehGunner_P.et" "{5915E51A1AABB9D2}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_VehGunner_P.et" "{5915E51A1AABB9D2}Prefabs/Characters/Factions/BLUFOR/CRF_GS_BLUFOR_VehGunner_P.et"
+         }
+         {
+          SCR_AIGroup : "{ABEBD4386CA25E24}Prefabs/Groups/BLUFOR/Standard/Vehicle/CRF_BLUFOR_AirCrew_p.et" {
+           coords 22.336 10.771 -9.837
+           {
+            SCR_AIGroup : "{ABEBD4386CA25E24}Prefabs/Groups/BLUFOR/Standard/Vehicle/CRF_BLUFOR_AirCrew_p.et" {
+             coords -1.699 -0.519 -5.2
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

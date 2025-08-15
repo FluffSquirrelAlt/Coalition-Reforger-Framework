@@ -1,0 +1,23 @@
+MatPBRBasicGlass {
+ Color 1 0.08 0.08 1
+ Emissive 0.004 0.004 0.004 0
+ EmissiveLV 2.103
+ EmissiveAbsoluteLV 0
+ Cull none
+ NoDecals 1
+ SpecularMul 0
+ AlphaTest 0.193
+ AlphaMul 0.329
+ RoughnessScale 5
+ CavityFromAO 0
+ BCRMap "{92FBD460275EE8DE}Assets/EnergyShield/data/hexGrid.edds"
+ FrontFaceInterior 1
+ FresnelPower 3.014
+ FresnelBias 0.339
+ ChromaticIntensity 0.99
+ DimIntensity 0.32
+ Refs {
+  "OpacityMap"
+  "BON_CustomMaterialAnimatorEntity.m_iMaterialAnimationFrame"
+ }
+}

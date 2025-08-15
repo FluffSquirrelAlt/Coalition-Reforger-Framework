@@ -1,0 +1,170 @@
+$grp SCR_DestructibleBuildingEntity : "{1C87C72319097FC1}Prefabs/Structures/Walls/Concrete/ConcreteRetainingWall_01/ConcreteRetainingWall_01_4m.et" {
+ {
+  coords 1986.35 397.409 2634.045
+  angleY -85.315
+  scale 1.786
+ }
+ {
+  coords 2027.613 423.611 2649.69
+  angleY -168.478
+  scale 0.752
+ }
+ {
+  coords 2026.193 414.378 2641.47
+  angleY -170.754
+  scale 2.043
+ }
+ {
+  coords 2031.198 418.131 2656.228
+  angleY -170.754
+  scale 2.043
+ }
+}
+$grp GenericEntity : "{51772946B67D3C22}Prefabs/Weapons/AutoTurrets/Light-MissileLauncher_CIW.et" {
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_bActiveOnSpawn 0
+   }
+  }
+  coords 2031.156 426.306 2656.22
+  angleY -20.474
+ }
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_bActiveOnSpawn 0
+   }
+  }
+  coords 2027.051 422.553 2641.231
+  angleY 179.142
+ }
+}
+$grp BON_CustomMaterialAnimatorEntity : "{8C41840281992C12}PrefabsEditable/Auto/Props/E_ShieldGenerator.et" {
+ {
+  components {
+   FactionAffiliationComponent "{6094B6EA11E722DF}" {
+    "faction affiliation" "CSW"
+   }
+   MeshObject "{5CC8F96767DF6051}" {
+    Materials {
+     MaterialAssignClass "{608B21AACFF7DB12}" {
+      SourceMaterial "DefaultGeneratedMaterial"
+      AssignedMaterial "{87F27EBE2126D0BE}Assets/EnergyShield/data/SphereSimple_CSW_CRF.emat"
+     }
+    }
+   }
+  }
+  coords 2027.569 427.476 2649.681
+  scale 2.015
+ }
+ {
+  components {
+   FactionAffiliationComponent "{6094B6EA11E722DF}" {
+    "faction affiliation" "CSW"
+   }
+   MeshObject "{5CC8F96767DF6051}" {
+    Materials {
+     MaterialAssignClass "{608B21AACFF7DB12}" {
+      SourceMaterial "DefaultGeneratedMaterial"
+      AssignedMaterial "{87F27EBE2126D0BE}Assets/EnergyShield/data/SphereSimple_CSW_CRF.emat"
+     }
+    }
+   }
+  }
+  coords 2732.484 500.575 2510.083
+  scale 12
+ }
+}
+$grp GenericEntity : "{8F3769FEDB4274A0}PrefabsEditable/Auto/Weapons/AutoTurrets/E_AutoTurret_X1_CIW.et" {
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_fRotationSpeed 0.3
+    m_fMaxAttackSpeed 2
+    m_iAttackRange 2500
+    m_fAttackInaccuracy 0.5
+   }
+  }
+  coords 2480.987 374.242 2440.365
+  angleY -103.919
+ }
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_fRotationSpeed 0.3
+    m_fMaxAttackSpeed 2
+    m_iAttackRange 2500
+    m_fAttackInaccuracy 0.5
+   }
+  }
+  coords 2477.167 380.638 2463.713
+  angleY -98.801
+ }
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_fRotationSpeed 0.3
+    m_fMaxAttackSpeed 2
+    m_iAttackRange 2500
+    m_fAttackInaccuracy 0.5
+   }
+  }
+  coords 2475.993 381.717 2482.295
+  angleY -71.259
+ }
+ {
+  components {
+   BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+    m_fRotationSpeed 0.3
+    m_fMaxAttackSpeed 2
+    m_iAttackRange 2500
+    m_fAttackInaccuracy 0.5
+   }
+  }
+  coords 1986.359 404.303 2634.05
+  angleY -82.424
+ }
+}
+$grp GenericEntity : "{BF9DBB1A93E542AD}Prefabs/Props/shieldGenerator.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{661D43BD345AD3D1}" {
+    "Additional hit zones" {
+     SCR_HitZone Hitzone {
+      HZDefault 1
+      MaxHealth 10000
+     }
+    }
+   }
+  }
+  coords 2027.537 426.619 2649.714
+  angleY -75.816
+  scale 3.7
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{661D43BD345AD3D1}" {
+    m_fBaseHealth 20000
+   }
+  }
+  coords 2732.402 495.16 2510.577
+  angleY -35.605
+  scale 19.939
+ }
+}
+GenericEntity : "{C7BC5A9FC3263518}PrefabsEditable/Auto/Weapons/AutoTurrets/E_AutoTurret_L1_CIW.et" {
+ components {
+  BON_AutoTurretComponent "{62ACAE2F976BB219}" {
+   m_Projectile "{B6B23E0F9E8A3C71}Prefabs/Weapons/Ammo/Ammo_Rocket_L1.et"
+  }
+  BON_AutoTurretTargetComponent "{62C91C0D0A7CBA50}" {
+   m_TargetFlags CHARACTERS
+  }
+  BaseItemAnimationComponent "{62ACAE2F976BB285}" {
+   Enabled 1
+  }
+ }
+ coords 2501.085 297.005 2213.081
+ angleY -131.846
+}
